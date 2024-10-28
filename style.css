@@ -1,0 +1,667 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+        overflow-x: hidden;
+}
+
+.navbar {
+        display: flex;
+        flex-direction: row;
+        list-style-type: none;
+        justify-content: flex-end;
+        margin-right: 140px;
+        margin-top: 25px;
+    }
+
+.pagetitle_div {
+        position: absolute;
+        top: 10px;
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        align-items: center;
+        overflow: hidden;
+        object-fit: contain;
+    }
+
+.header {
+        color: white;
+        font-family: "Bai Jamjuree", sans serif;
+        font-weight: 400;
+        font-size: 40px;
+        padding-top: 30px;
+}
+
+    .navbar li {
+        margin-right: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .navbar li a:hover {
+        color: white;
+        transition: 0.4s;
+        cursor: pointer;
+    }
+
+    .navbar li:lastchild {
+        margin-right: 0;
+    }
+
+    a {
+        text-decoration: none;
+        color: rgb(226, 226, 226);
+        transition: color 0.2s ease;
+    }
+
+.languageflag {
+    width: 20px;
+    height: 20px;
+}
+
+    .headerimg {
+        background-image: url(./task7_images/header.jpg);
+        vertical-align: top;
+        width: 100%;
+        margin-right: -8px;
+        position: relative;
+        opacity: 0.7;
+        overflow-x: hidden;
+        height: 100vh;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        opacity: 60%;
+        min-height: 100%;
+    }
+
+    .headerimgsub {
+        background-image: url(./task7_images/header.jpg);
+        vertical-align: top;
+        width: 100%;
+        margin-right: -8px;
+        position: relative;
+        opacity: 0.7;
+        overflow-x: hidden;
+        height: 380px;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        opacity: 60%;
+        min-height: 100%;
+    }
+
+    .subheader {
+        color: white;
+        font-family: "Bai Jamjuree", sans serif;
+        font-weight: 400;
+        font-size: 50px;
+}
+
+.subbody {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #f6f6f6;
+    width: 100%;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 150px;
+}
+
+.subbody2 {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #f6f6f6;
+    width: 100%;
+    flex-direction: column;
+}
+
+.subtext3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.categories_div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #f6f6f6;
+    padding-bottom: 100px;
+}
+
+.category {
+    display: flex;
+    margin: 20px;
+    background-color: black;
+    justify-content: center;
+}
+
+.categoryimg {
+    overflow: hidden;
+    object-fit: cover;
+    align-content: center;
+    max-width: 100%;
+    height: 400px;
+    width: 400px;
+    opacity: 60%;
+}
+
+.imagetext {
+    position: absolute;
+    color: #ffffff;
+    font-size: 35px;
+    font-family:Arial, Helvetica, sans-serif;
+    align-self: center;
+}
+
+.small {
+    color: #3a3a3a;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 2;
+    padding-top: 30px;
+}
+
+.subtext {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.information {
+    color: #3a3a3a;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 2;
+    padding-left: 15px;
+}
+
+.information2 {
+    color: #3a3a3a;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 2;
+    text-align: center;
+}
+
+.subtext2 {
+    display: flex;
+    background-color: #f6f6f6;
+    width: 100%;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.contact_div {
+    background-color: #f6f6f6;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+
+.contacttable th, .contacttable td{
+    vertical-align: top;
+}
+
+.tableimg {
+    width: 250px;
+    height: 250px;
+}
+
+.contacttable {
+    width: 100%;
+    display: flex;
+    border-collapse: separate;
+    border-spacing: 30px 0;
+    color: #3a3a3a;
+    line-height: 2;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contactheader {
+    color: #3a3a3a;
+        font-family: "Bai Jamjuree", sans serif;
+        font-weight: 400;
+        font-size: 40px;
+        text-align: center;
+        background-color: #f6f6f6;
+        padding-bottom: 50px;
+}
+
+.map {
+    width: 600px;
+    padding-right: 15px;
+}
+
+
+.pagetitle_subdiv {
+    position: absolute;
+    width: 100%;
+    top: 20%;
+    align-items: center;
+    overflow: hidden;
+    text-align: center;
+}
+
+    .navbar_div {
+        position: absolute;
+        top: 10px;
+        width: 100%;
+    }
+
+    .logoimg {
+        width: 500px;
+
+    }
+
+    .main_div {
+        background-color: black;
+    }
+
+.footer_section {
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: white;
+}
+
+.careerheader {
+    font-family: "Bai Jamjuree", sans serif;
+    color: #3a3a3a;
+        font-weight: 400;
+        font-size: 40px;
+}
+
+.careertext {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 150px;
+    text-align: left;
+}
+
+.careertextsmall {
+    color: #3a3a3a;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 2;
+    padding-top: 25px;
+}
+
+.button{
+    font-family: "Bai Jamjuree", sans serif;
+    font-size: small;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-align: center;
+    background-color: #3D5DDE;
+    color: white;
+    width: 180px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.contactform_div {
+    display: flex;
+    justify-content: center;
+    background-color: #f6f6f6;
+    gap: 30px;
+    padding-bottom: 100px;
+}
+
+.contactform {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    row-gap: 15px;
+    padding-top: 1px;
+}
+
+.contactform:hover {
+    cursor: text;
+}
+
+.forminput {
+    height: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding-left: 10px;
+    color: #b1b1b1;
+    border: 1px solid #c3c3c3;
+    border-radius: 3px;
+}
+
+.forminput:focus {
+    color: rgb(82, 82, 82);
+    transition-duration: 0.2s;
+}
+
+.forminputtextarea:focus {
+    color: rgb(82, 82, 82);
+    transition-duration: 0.2s;
+}
+
+.forminputtextarea {
+        height: 40px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        padding-left: 10px;
+        color: #b1b1b1;
+        border: 1px solid #c3c3c3;
+        border-radius: 3px;
+        padding-top: 10px;
+        resize: none;
+        height: 113px;
+}
+
+.submitbutton{
+    font-family: "Bai Jamjuree", sans serif;
+    font-size: small;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-align: center;
+    background-color: #3D5DDE;
+    color: white;
+    width: 180px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+
+.submitbutton:hover {
+    cursor: pointer;
+}
+
+.contactimg {
+    width: 550px;
+}
+
+.footerlogo {
+    width: 170px;
+    padding-top: 100px;
+    margin-left: 130px;
+}
+
+.footerbreak {
+    width: 100%;
+    height: 1px;
+    background-color: rgb(227, 227, 227);
+    border: none;
+    margin: 20px;
+    margin-top: 150px;
+}
+
+.footer {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.p1, .p2, .p3 {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 300px;
+    color: #3a3a3a;
+}
+
+.p1 {
+    text-align: left;
+}
+
+.p2 {
+    font-size: small;
+    text-align: center;
+}
+
+.p3 {
+    text-align: right;
+}
+
+.footerlogo_div {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+.facebook, .linkedin {
+    width: 25px;
+    height: 25px;
+    margin-left: 5px;
+}
+
+.socials {    
+    display: flex;
+    margin-left: 70px;
+    cursor: pointer;
+}
+
+.category a:hover {
+    color: #3a3a3a;
+}
+
+.contact_grid {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    font-family: Arial, Helvetica, sans-serif;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+.gridtitle1, .gridtitle2, .gridtitle3, .gridtitle4, .gridtitle5 {
+    font-weight: 600;
+    line-height: 2;
+    color: #3a3a3a;
+}
+
+.gridinfo1, .gridinfo2, .gridinfo3, .gridinfo4, .gridinfo5 {
+    color: #3a3a3a;
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        margin:0%;
+        align-items: center;
+    }
+
+    .navbar li {
+        margin: 10px 0;
+    }
+
+    .subbody {
+        flex-direction: column;
+    }
+
+    .header {
+        font-size: 30px;
+    }
+    
+    .contactform_div {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .pagetitle_div {
+        margin-top: 50px;
+        height: auto;
+    }
+
+    .logoimg {
+        width: 50vh;
+    }
+
+    .pagetitle_subdiv {
+        margin-top: 120px;
+        height: auto;
+    }
+
+    .subheader {
+        font-size: 30px;
+    }
+
+    .footer {
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .map {
+        width: 50vh;
+        height: auto;
+        padding-bottom: 30px;
+    }
+
+    .subtext {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .categories_div {
+        flex-direction: column;
+    }
+
+    .subbody {
+        align-items: center;
+    }
+
+    .careerheader, .careertext, .careertextsmall {
+        text-align: center;
+    }
+
+    .information {
+        padding-left: 0;
+    }
+
+    .contactimg {
+        width: 50vh;
+        height: auto;
+    }
+
+    .contactform {
+        width: 50vh;
+    }
+
+    .categoryimg {
+        width: 50vh;
+        height: 200px;
+    }
+
+    .footer {
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footerbreak {
+        margin-top: 30px;
+        margin-bottom: 20px
+    }
+
+    .p1, .p2, .p3 {
+        text-align: center;
+    }
+
+    .contact_grid {
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    .gridtitle1 {
+        order: 1;
+        line-height: 0.5;
+    }
+
+    .gridtitle2 {
+        order: 4;
+        line-height: 0.5;
+    }
+
+    .gridtitle3 {
+        order: 7;
+        line-height: 0.5;
+    }
+
+    .gridtitle4 {
+        order: 10;
+        line-height: 0.5;
+    }
+
+    .gridtitle5 {
+        order: 13;
+        line-height: 0.5;
+    }
+
+    .gridinfo1 {
+        order: 2;
+    }
+
+    .gridinfo2 {
+        order: 5;
+    }
+
+    .gridinfo3 {
+        order: 8;
+    }
+
+    .gridinfo4 {
+        order: 11;
+    }
+
+    .gridinfo5 {
+        order: 14;
+    }
+
+    .gridimg1 {
+        order: 3;
+        padding-bottom: 30px;
+    }
+
+    .gridimg2 {
+        order: 6;
+        padding-bottom: 30px;
+    }
+
+    .gridimg3 {
+        order: 9;
+        padding-bottom: 30px;
+    }
+
+    .gridimg4 {
+        order: 12;
+        padding-bottom: 30px;
+    }
+
+    .gridimg5 {
+        order: 15;
+        padding-bottom: 30px;
+    }
+}
